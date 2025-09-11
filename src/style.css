@@ -1,25 +1,25 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: Roboto, sans-serif;
 
   --main-color: #00acdc;
 }
 
 .header {
-  width: 100dvw;
-  color: #fff;
+  background-color: #fff;
 }
 
 .header_container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 50px;
 }
 
 .header_logo {
   height: 40px;
   width: 40px;
-  padding: 0 0 0 50px;
 }
 
 .logo {
@@ -27,12 +27,9 @@ body {
   width: 100%;
 }
 
-.header_nav {
-  padding: 0 50px 0 0;
-}
-
 .nav_list {
   margin: 0;
+  padding: 0;
   list-style: none;
   display: flex;
   align-items: center;
@@ -57,6 +54,7 @@ body {
   font-weight: 500;
   text-decoration: none;
   color: #000;
+  line-height: 100%;
   font-size: 12px;
   text-transform: uppercase;
 }
