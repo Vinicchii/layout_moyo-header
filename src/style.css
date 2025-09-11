@@ -6,15 +6,13 @@ body {
   --main-color: #00acdc;
 }
 
-.header {
-  background-color: #fff;
-}
-
 .header_container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 50px;
+
+  background-color: #fff;
 }
 
 .header_logo {
